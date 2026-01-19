@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     width: 100%;
+    overflow-x: hidden;
     
  }
  
@@ -38,8 +39,9 @@
     display: flex;
     gap: 30px;
     font-color: white;
-    color: #ffffff
-    ;
+    color: #ffffff;
+    list-style: none;
+   
 }
 .nav-btn{
     padding: 10px 26px;
@@ -57,4 +59,75 @@
 .nav-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 0 28px rgba(255, 138, 0, o.8,);
+}
+/* hero section */
+.hero-bg{
+    height: 760px;
+    width: 1600px;
+    position: absolute;
+
+}
+.hero-content{
+    position: relative;
+    z-index: 03;
+    display: grid;
+    height: 558px;
+  align-content: center;
+  left: 41%;
+
+  
+}
+
+
+.mic-icon{
+    width: 200px;
+    height: 200px;
+    /* background-color: #1A0B2E; */
+    position: absolute;
+     /* position: relative; */
+    z-index: 03;
+    display: grid;
+    /* height: px; */
+  align-content: center;
+  left: 49%;
+  bottom: 38%;
+
+}
+.hero-btn{
+    position: absolute;
+    display: grid;
+    left: 57%;
+    bottom: 63%;
+    z-index: 03;
+}
+.text{
+    position: absolute;
+   color: white;
+   text-align: center;
+   left: 37%;
+   bottom: 07%;
+   
+
+}
+.sss{
+    bottom: 60%;
+}
+.lll{
+    font-size: 50px;
+}
+
+
+
+.btn{
+    position: absolute;
+    left: 44%;
+    bottom: 03%;
+}
+.n-btn{
+    border-radius: 30px;
+background: none;
+color: white;
+border: 30jpx;
+padding: 10px 20px;
+border-color: white;
 }
