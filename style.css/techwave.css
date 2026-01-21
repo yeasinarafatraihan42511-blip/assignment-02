@@ -225,6 +225,54 @@
   width: 52px;
   height: 52px;
 }
-.small-card{
+/* Featured section */
 
+.featured-episodes {
+  padding: 100px 20px;
+  background: linear-gradient(180deg, #120018, #1b0028);
+  color: #fff;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.episodes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.episode-card {
+  background: rgba(255,255,255,0.04);
+  border-radius: 18px;
+  padding: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.video-box {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.video-box iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.episode-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.mmm{
+    color: #3cff7a;
 }
