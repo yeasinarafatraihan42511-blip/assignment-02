@@ -21,10 +21,18 @@
   width: 219px;
   height: 32px;
  }
+ .tech{
+  animation: logoFloat 2s ease-in-out infinite;
+  height: 36px;
+  will-change: transform;
+}
  .nav-item{
   display: flex;
   justify-content: space-between;
 
+ }
+ .hamburger-menu{
+  display: none;
  }
  
 .navbar{
@@ -32,6 +40,13 @@
    height: 92px;
     padding: 20px 60px;
     background-color: #1A0B2E;
+    
+  
+    }]
+       /* nav .hamburger-menu{
+    display:none;
+  } */
+
 
     
     /* background-color: #1A0B2E;
@@ -86,9 +101,31 @@
     box-shadow: 0 0 28px rgba(255, 138, 0, o.8,);
     background: #3cff7a;
 }
+.nav-btn-2{
+    padding: 10px 26px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    
+    
+
+    background: linear-gradient(90deg, #ff4ecd, #ff8a00, #7f5bff);
+    box-shadow: 0 0 18px rgba(255, 78, 205, 0.5px);
+    transition: all o.3s ease;
+}
+
+.nav-btn-2:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 28px rgba(255, 138, 0, o.8,);
+    background: #3cff7a;
+}
 /* 
 /* new hero section */
 .hero{
+  background-image: url(../assets/hero-bg.png);
     position: relative;
     height: 760px;
     width: 100%;
@@ -371,11 +408,14 @@
   display: flex;
   align-items: center;
   gap: 40px;
-  /* background: rgba(255, 255, 255, 0.04); */
-  background: #230E3D;
-  border: 1px solid rgba(255,255,255,0.08);
+  /* background: rgba(221, 237, 217, 0.04); */
+  /* background: #4e79e7; */
+  border: 1px solid rgba(237, 238, 236, 0.08);
   border-radius: 22px;
   padding: 40px;
+  /* background: rgba(255, 255, 255, 0.03); */
+  background: rgb(38, 9, 75)
+
 }
 
 .host-image img {
@@ -401,6 +441,8 @@
 .icon{
     display: flex;
     gap: 10px;
+   
+    
 }
 .site-footer{
     position: relative;
@@ -446,7 +488,7 @@
   width: 20px;
   height: 20px;
 }
-.logo{
+.logo-2{
  
   align-items: center;
   text-align: center;
@@ -468,11 +510,7 @@
  height: 60px;
  font-size: 20px;
 }
-.tech{
-  animation: logoFloat 2s ease-in-out infinite;
-  height: 36px;
-  will-change: transform;
-}
+
 @keyframes logoFloat {
   0% {
     transform: translateY(0);
